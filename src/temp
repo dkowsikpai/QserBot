@@ -1,0 +1,103 @@
+
+# if len(self.objective["complaint"]) == 0:
+        #     while True:
+        #         print()
+            #     if self.txt in self.GREETING_INPUTS:
+            #         out = "Hi, How can I help you?"
+            #         print(out)
+            #     elif self.txt in self.END_GREETING_INPUTS:
+            #         out = "Thank you for using our service"
+            #         print(out)
+            #         self.objective["completed"] = True
+            #         return (True,)
+            #     else:
+            #         cho, buy = self.product_option(self.txt.lower())
+            # #         print((cho, buy))
+            #         self.objective["new_service"] = buy
+            #         self.objective["stage"] = 1
+            #         self.Ignite.putData(objective, IDK)
+            #         if len(cho) > 0:
+            #             if len(cho) == 1:
+            #                 self.objective["complaint"] = cho[0][0]
+            #                 self.objective["stage"] = 2
+            #                 self.Ignite.putData(objective, IDK)
+            # #           Get Next obj in next function
+            #                 return (False, )
+            #             elif len(cho) > 1:
+            #     #             Get Choice
+            #                 # if buy == True:
+            #                 #     out = "Please enter your product"
+            #                 # else:
+            #                 #     out = "Please enter your choice"
+            #                 # print(out)
+            #                 # print('\n'.join([x[0] for x in cho]))
+            #                 return False, cho
+            #         else:
+            #             out = "I couldn't recognize service request"
+            #             # print(out)
+            #             # self.txt = input()
+        #                 continue
+        
+        # if len(self.objective["desc"]) == 0:
+            # # print("Can you please provide more description of problem?")
+            # # self.txt = input()
+            # score = self.sentiment_score(self.txt)
+            # if score["neg"] >= 0.5:
+            #     self.objective["desc"] = "None"
+            # else:
+            #     self.objective["desc"] = self.txt
+            # self.objective["stage"] = 3
+            # self.Ignite.putData(objective, IDK)
+            # return (False, )
+
+        # if len(self.objective["addr"]) == 0:
+        #     # print("Can you please provide more description of problem?")
+        #     # self.txt = input()
+        #     score = self.sentiment_score(self.txt)
+        #     if score["neg"] >= 0.5:
+        #         self.objective["addr"] = "None"
+        #     else:
+        #         self.objective["addr"] = self.txt
+        #     self.objective["stage"] = 4
+        #     self.Ignite.putData(objective, IDK)
+        #     return (False, )
+
+        # if len(self.objective["mob"]) == 0:
+        #     # print("Can you please provide more description of problem?")
+        #     # self.txt = input()
+        #     return (False, )
+        #     score = self.sentiment_score(self.txt)
+        #     if score["neg"] >= 0.5:
+        #         self.objective["mob"] = "None"
+        #     else:
+        #         self.objective["mob"] = self.txt
+        #     self.objective["stage"] = 5
+        #     self.Ignite.putData(objective, IDK)
+        #     return (False, )
+
+        # if len(self.objective["landmark"]) == 0:
+        #     # print("Can you please provide more description of problem?")
+        #     # self.txt = input()
+        #     return (False, )
+        #     score = self.sentiment_score(self.txt)
+        #     if score["neg"] >= 0.5:
+        #         self.objective["landmark"] = "None"
+        #     else:
+        #         self.objective["landmark"] = self.txt
+        #     self.objective["stage"] = 6
+        #     self.Ignite.putData(objective, IDK)
+        #     return (False, )
+
+        # if len(self.objective["confirm"]) == 0:
+        #     # print("Can you please provide more description of problem?")
+        #     # self.txt = input()
+        #     return (False, )
+        #     score = self.sentiment_score(self.txt)
+        #     if score["neg"] >= 0.5:
+        #         self.objective["confirm"] = False
+        #     else:
+        #         self.objective["confirm"] = True
+        #     self.objective["completed"] = True
+        #     self.objective["stage"] = 7
+        #     self.Ignite.putData(objective, IDK)
+        #     return (True, )
